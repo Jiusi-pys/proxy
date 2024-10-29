@@ -1,7 +1,7 @@
 # proxy
 **This is a repository for clash/surge5 rule and basic configuration**.
 
-
+You can get clash from [release](https://github.com/Jiusi-pys/proxy/releases)  
 You can get mihomo(linux clash without GUN) via [clash verge github link](https://github.com/MetaCubeX/mihomo)
 You can get clash verge via [clash verge github link](https://github.com/clash-verge-rev/clash-verge-rev)
 ## other
