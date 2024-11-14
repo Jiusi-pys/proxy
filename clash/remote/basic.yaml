@@ -1,0 +1,86 @@
+mode: rule
+redir-port: 7892
+mixed-port: 49835
+allow-lan: true
+log-level: info
+ipv6: true
+external-controller: 0.0.0.0:9090
+secret: Pys20010519@clash
+external-ui: ./dashboard
+bind-address: 0.0.0.0
+dns:
+  enable: true
+  ipv6: true
+  listen: 0.0.0.0:7874
+  enhanced-mode: fake-ip
+  fake-ip-range: 10.96.0.0/16
+  nameserver-policy:
+    '*.jiusi.one': https://1.0.0.1/dns-query
+    '*.google.com': https://1.0.0.1/dns-query
+    '*.chatgpt.com': https://1.0.0.1/dns-query
+    '*.youtube.com': https://1.0.0.1/dns-query
+  default-nameserver:
+  - 240e:41:4200::1
+  - 240e:41:4100::1
+  - 112.100.101.101
+  - 112.100.100.100
+  - 114.114.114.114
+  - 114.114.115.115
+  - 223.5.5.5
+  - 223.6.6.6
+  - 119.29.29.29
+  nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://sm2.doh.pub/dns-query
+  - https://doh.360.cn/dns-query
+  fallback:
+  - https://cloudflare-dns.com/dns-query
+  - https://dns.adguard.com/dns-query
+  - https://dns.google/dns-query
+  - https://doh-pure.onedns.net/dns-query
+  - https://dns10.quad9.net/dns-query
+  - https://dns.twnic.tw/dns-query
+  - https://dns.quad9.net/dns-query
+  - https://doh.opendns.com/dns-query
+  - https://doh.dns.sb/dns-query
+  - https://doh.powerdns.org
+  - https://doh-jp.blahdns.com/dns-query
+  - https://public.dns.iij.jp/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+    - gfw
+    ipcidr:
+    - 240.0.0.0/4
+    - 192.168.0.0/16
+    - 172.16.0.0/12
+    - 10.0.0.0/8
+    - 127.0.0.0/8
+    domain:
+    - '*.apple.com'
+    - '*.apple.com.cn'
+    - '*.hit.edu.cn'
+    - '*.bilibili.com'
+  use-system-hosts: false
+  ip-v6: true
+profile:
+  store-selected: true
+tun:
+  auto-detect-interface: true
+  auto-route: true
+  device: Mihomo
+  dns-hijack:
+  - any:53
+  mtu: 1500
+  stack: gvisor
+  strict-route: true
+  enable: true
+  fake-ip-filter:
+  - '*.jiusi.one'
+  - '*.myqnapcloud.com'
+  - '*.hit.edu.cn'
+external-controller-cors:
+  allow-private-network: true
+  allow-origins:
+  - '*'
