@@ -6,8 +6,21 @@ log-level: info
 ipv6: true
 external-controller: 0.0.0.0:9090
 secret: Pys20010519@clash
-external-ui: ./dashboard
 bind-address: 0.0.0.0
+tun:
+  auto-detect-interface: true
+  auto-route: true
+  device: Mihomo
+  dns-hijack:
+  - any:53
+  mtu: 1500
+  stack: gvisor
+  strict-route: true
+  enable: true
+  fake-ip-filter:
+  - '*.jiusi.one'
+  - '*.myqnapcloud.com'
+  - '*.hit.edu.cn'
 dns:
   enable: true
   ipv6: true
@@ -64,23 +77,31 @@ dns:
     - '*.bilibili.com'
   use-system-hosts: false
   ip-v6: true
-profile:
-  store-selected: true
-tun:
-  auto-detect-interface: true
-  auto-route: true
-  device: Mihomo
-  dns-hijack:
-  - any:53
-  mtu: 1500
-  stack: gvisor
-  strict-route: true
-  enable: true
-  fake-ip-filter:
-  - '*.jiusi.one'
-  - '*.myqnapcloud.com'
-  - '*.hit.edu.cn'
 external-controller-cors:
   allow-private-network: true
   allow-origins:
   - '*'
+profile:
+  store-selected: true
+external-ui: ./dashboard
+rules:
+- RULE-SET,AD1,REJECT
+- RULE-SET,AD2,REJECT
+- DOMAIN-SUFFIX,myqnapcloud.com,DIRECT
+- IP-CIDR,192.168.0.0/16,VPN,no-resolved
+- RULE-SET,NINTENDO,Game
+- RULE-SET,VALORANT,Game
+- RULE-SET,NETFLIX,Netflix
+- RULE-SET,WECHAT,DIRECT
+- RULE-SET,DISNEY,Disney
+- RULE-SET,HBOMAX,Hbomax
+- RULE-SET,AI,Scholar
+- RULE-SET,GOOGLE,Scholar
+- RULE-SET,YOUTUBE,Global
+- RULE-SET,TIKTOK,Global
+- RULE-SET,STEAM,Global
+- RULE-SET,GITHUB,Global
+- RULE-SET,TWITCH,Global
+- RULE-SET,BILIBILI,DIRECT
+- RULE-SET,CHINA_DIRECT,DIRECT
+- MATCH,Match
