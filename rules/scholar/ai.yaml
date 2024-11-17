@@ -19,7 +19,6 @@ DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,stripe.com
-DONAIN-SUFFIX,statsigapi.net
 DOMAIN,cdn.auth0.com
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,challenges.cloudflare.com
