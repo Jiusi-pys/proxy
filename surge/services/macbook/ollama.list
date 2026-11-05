@@ -1,0 +1,4 @@
+# Service: ollama
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,ollama.com
+DOMAIN-SUFFIX,ollama.ai

@@ -1,0 +1,5 @@
+# Service: uu-remote
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,nrd.nie.163.com
+DOMAIN-SUFFIX,proxima.nie.netease.com
+DOMAIN,shence-api.mumu.163.com

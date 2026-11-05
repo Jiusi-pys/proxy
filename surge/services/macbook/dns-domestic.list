@@ -1,0 +1,4 @@
+# Service: dns-domestic
+# Policy/options and ordering are defined by the parent profile.
+IP-CIDR,223.5.5.5/32
+IP-CIDR,223.6.6.6/32

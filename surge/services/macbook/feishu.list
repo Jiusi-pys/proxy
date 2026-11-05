@@ -1,0 +1,6 @@
+# Service: feishu
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,feishu.cn
+DOMAIN-SUFFIX,feishu.com
+DOMAIN-SUFFIX,feishu.net
+DOMAIN-SUFFIX,feishucdn.com

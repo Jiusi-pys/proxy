@@ -1,0 +1,5 @@
+# Service: github
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com

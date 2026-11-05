@@ -1,0 +1,5 @@
+# Service: dns-overseas
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN,dns.google
+DOMAIN,dns.quad9.net
+DOMAIN,dns.adguard.com

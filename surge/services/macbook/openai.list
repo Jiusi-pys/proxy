@@ -1,0 +1,6 @@
+# Service: openai
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com

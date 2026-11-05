@@ -1,0 +1,7 @@
+# Service: local-network
+# Policy/options and ordering are defined by the parent profile.
+IP-CIDR,127.0.0.0/8
+IP-CIDR,10.0.0.0/8
+IP-CIDR,172.16.0.0/12
+IP-CIDR,192.168.0.0/16
+IP-CIDR,169.254.0.0/16

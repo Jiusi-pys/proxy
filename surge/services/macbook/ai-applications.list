@@ -1,0 +1,8 @@
+# Service: ai-applications
+# Policy/options and ordering are defined by the parent profile.
+PROCESS-NAME,/Applications/ChatGPT.app/
+PROCESS-NAME,SkyComputerUseService
+PROCESS-NAME,codex
+PROCESS-NAME,Claude
+PROCESS-NAME,"Claude Helper"
+PROCESS-NAME,"Cursor Helper"

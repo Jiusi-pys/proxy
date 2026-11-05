@@ -1,0 +1,4 @@
+# Service: whatsapp
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net

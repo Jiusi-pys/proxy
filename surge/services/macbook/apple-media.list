@@ -1,0 +1,7 @@
+# Service: apple-media
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN,news.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-content.apple.com
+DOMAIN,tv.apple.com
+DOMAIN-SUFFIX,apple.news

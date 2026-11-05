@@ -1,0 +1,5 @@
+# Service: glm
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,chatglm.cn
+DOMAIN-SUFFIX,zhipuai.cn
+DOMAIN-SUFFIX,bigmodel.cn

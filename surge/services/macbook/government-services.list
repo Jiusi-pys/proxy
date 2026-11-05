@@ -1,0 +1,4 @@
+# Service: government-services
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,gd.gov.cn
+DOMAIN-SUFFIX,hdhwqx.cn

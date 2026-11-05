@@ -1,0 +1,4 @@
+# Service: quark
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,quark.cn
+DOMAIN-SUFFIX,myquark.cn

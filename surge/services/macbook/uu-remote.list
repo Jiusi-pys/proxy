@@ -1,0 +1,5 @@
+# Service: uu-remote
+# Policy/options and ordering are defined by the parent profile.
+PROCESS-NAME,/Applications/UURemote.app/
+PROCESS-NAME,UURemoteServer
+PROCESS-NAME,UURemote

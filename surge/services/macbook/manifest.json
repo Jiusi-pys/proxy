@@ -1,0 +1,546 @@
+{
+  "services": 52,
+  "lists": [
+    {
+      "service": "dns-overseas",
+      "file": "dns-overseas.list",
+      "policy": "US",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 1
+    },
+    {
+      "service": "dns-overseas",
+      "file": "dns-overseas-part02.list",
+      "policy": "US",
+      "options": [
+        "no-resolve"
+      ],
+      "count": 1
+    },
+    {
+      "service": "dns-domestic",
+      "file": "dns-domestic.list",
+      "policy": "DIRECT",
+      "options": [
+        "no-resolve"
+      ],
+      "count": 2
+    },
+    {
+      "service": "dns-domestic",
+      "file": "dns-domestic-part02.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 1
+    },
+    {
+      "service": "dns-overseas",
+      "file": "dns-overseas-part03.list",
+      "policy": "US",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 3
+    },
+    {
+      "service": "uu-remote",
+      "file": "uu-remote.list",
+      "policy": "DIRECT",
+      "options": [],
+      "count": 3
+    },
+    {
+      "service": "uu-remote",
+      "file": "uu-remote-part02.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 3
+    },
+    {
+      "service": "local-network",
+      "file": "local-network.list",
+      "policy": "DIRECT",
+      "options": [
+        "no-resolve"
+      ],
+      "count": 5
+    },
+    {
+      "service": "local-network",
+      "file": "local-network-ipv6.list",
+      "policy": "DIRECT",
+      "options": [
+        "no-resolve"
+      ],
+      "count": 3
+    },
+    {
+      "service": "local-network",
+      "file": "local-network-part02.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "tailscale",
+      "file": "tailscale.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 3
+    },
+    {
+      "service": "telegram-protocol",
+      "file": "telegram-protocol.list",
+      "policy": "PROXY",
+      "options": [],
+      "count": 1
+    },
+    {
+      "service": "gemini",
+      "file": "gemini.list",
+      "policy": "SCHOLAR",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 7
+    },
+    {
+      "service": "qwen-international",
+      "file": "qwen-international.list",
+      "policy": "SCHOLAR",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 1
+    },
+    {
+      "service": "openai",
+      "file": "openai.list",
+      "policy": "SCHOLAR",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 4
+    },
+    {
+      "service": "anthropic",
+      "file": "anthropic.list",
+      "policy": "SCHOLAR",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "gemini",
+      "file": "gemini-part02.list",
+      "policy": "SCHOLAR",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 1
+    },
+    {
+      "service": "qwen-domestic",
+      "file": "qwen-domestic.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "kimi",
+      "file": "kimi.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 3
+    },
+    {
+      "service": "doubao",
+      "file": "doubao.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "glm",
+      "file": "glm.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 3
+    },
+    {
+      "service": "minimax",
+      "file": "minimax.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "qwen-domestic",
+      "file": "qwen-domestic-part02.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 4
+    },
+    {
+      "service": "tencent",
+      "file": "tencent.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 7
+    },
+    {
+      "service": "feishu",
+      "file": "feishu.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 4
+    },
+    {
+      "service": "bilibili",
+      "file": "bilibili.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 5
+    },
+    {
+      "service": "iqiyi",
+      "file": "iqiyi.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "youku",
+      "file": "youku.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 1
+    },
+    {
+      "service": "alibaba-commerce",
+      "file": "alibaba-commerce.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 3
+    },
+    {
+      "service": "jd",
+      "file": "jd.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "pinduoduo",
+      "file": "pinduoduo.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "goofish",
+      "file": "goofish.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 1
+    },
+    {
+      "service": "baidu",
+      "file": "baidu.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "quark",
+      "file": "quark.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "weread",
+      "file": "weread.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 1
+    },
+    {
+      "service": "ireader",
+      "file": "ireader.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "government-services",
+      "file": "government-services.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "lark",
+      "file": "lark.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "apple-media",
+      "file": "apple-media.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 5
+    },
+    {
+      "service": "apple",
+      "file": "apple.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 7
+    },
+    {
+      "service": "netflix",
+      "file": "netflix.list",
+      "policy": "NETFLIX",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 6
+    },
+    {
+      "service": "playstation",
+      "file": "playstation.list",
+      "policy": "PLAYSTATION",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 3
+    },
+    {
+      "service": "steam",
+      "file": "steam.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 5
+    },
+    {
+      "service": "google",
+      "file": "google.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 6
+    },
+    {
+      "service": "youtube",
+      "file": "youtube.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 5
+    },
+    {
+      "service": "github",
+      "file": "github.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 3
+    },
+    {
+      "service": "huggingface",
+      "file": "huggingface.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "ollama",
+      "file": "ollama.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "notion",
+      "file": "notion.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 5
+    },
+    {
+      "service": "discord",
+      "file": "discord.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 5
+    },
+    {
+      "service": "telegram",
+      "file": "telegram.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "whatsapp",
+      "file": "whatsapp.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "onedrive",
+      "file": "onedrive.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 4
+    },
+    {
+      "service": "pikpak",
+      "file": "pikpak.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 1
+    },
+    {
+      "service": "surge",
+      "file": "surge.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 1
+    },
+    {
+      "service": "cloudflare-reporting",
+      "file": "cloudflare-reporting.list",
+      "policy": "PROXY",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 1
+    },
+    {
+      "service": "china-tld",
+      "file": "china-tld.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 1
+    },
+    {
+      "service": "wps",
+      "file": "wps.list",
+      "policy": "DIRECT",
+      "options": [
+        "extended-matching"
+      ],
+      "count": 2
+    },
+    {
+      "service": "ai-applications",
+      "file": "ai-applications.list",
+      "policy": "SCHOLAR",
+      "options": [],
+      "count": 6
+    },
+    {
+      "service": "chrome-remote-desktop",
+      "file": "chrome-remote-desktop.list",
+      "policy": "PROXY",
+      "options": [],
+      "count": 1
+    }
+  ],
+  "profile": "macbook",
+  "active_reload": "passed",
+  "native_check": "passed",
+  "non_rule_sections_unchanged": true,
+  "effective_rules_match": true,
+  "verification": {
+    "original_local_migration_policy_checks": 42,
+    "private_device_rule": "omitted; retained only in the live private profile"
+  }
+}

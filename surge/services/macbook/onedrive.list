@@ -1,0 +1,6 @@
+# Service: onedrive
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,sharepoint.com

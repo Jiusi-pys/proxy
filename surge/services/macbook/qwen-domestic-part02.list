@@ -1,0 +1,6 @@
+# Service: qwen-domestic
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,qianwen.com
+DOMAIN-SUFFIX,tongyi.com
+DOMAIN-SUFFIX,tongyi.aliyun.com
+DOMAIN-SUFFIX,cn-beijing.maas.aliyuncs.com

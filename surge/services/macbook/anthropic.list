@@ -1,0 +1,4 @@
+# Service: anthropic
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai

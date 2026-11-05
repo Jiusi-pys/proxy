@@ -1,0 +1,5 @@
+# Service: kimi
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,kimi.ai
+DOMAIN-SUFFIX,moonshot.cn

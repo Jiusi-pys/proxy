@@ -1,0 +1,4 @@
+# Service: qwen-domestic
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN,dashscope.aliyun.com
+DOMAIN,dashscope.aliyuncs.com

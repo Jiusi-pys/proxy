@@ -1,0 +1,7 @@
+# Service: bilibili
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,hdslb.com

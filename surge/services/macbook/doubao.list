@@ -1,0 +1,4 @@
+# Service: doubao
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,zijieapi.com

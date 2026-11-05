@@ -1,0 +1,5 @@
+# Service: playstation
+# Policy/options and ordering are defined by the parent profile.
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com
